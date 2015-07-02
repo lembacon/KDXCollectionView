@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65A7FEEA1B45A315003CCF1F /* KDXCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A7FEE91B45A315003CCF1F /* KDXCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65A7FEF01B45A315003CCF1F /* KDXCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A7FEE51B45A315003CCF1F /* KDXCollectionView.framework */; };
-		65A7FEF71B45A315003CCF1F /* KDXCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A7FEF61B45A315003CCF1F /* KDXCollectionViewTests.swift */; };
-		65A7FEFE1B45A348003CCF1F /* KDXGraphicsUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF65D31795C37A00A0F953 /* KDXGraphicsUtility.h */; };
-		65A7FEFF1B45A34B003CCF1F /* KDXGraphicsUtility.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DF65D21795C37A00A0F953 /* KDXGraphicsUtility.c */; };
-		65A7FF001B45A34E003CCF1F /* KDXCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF65CE1795C37A00A0F953 /* KDXCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65A7FF011B45A351003CCF1F /* KDXCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DF65CF1795C37A00A0F953 /* KDXCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		65A7FF021B45A354003CCF1F /* KDXCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF65D01795C37A00A0F953 /* KDXCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65A7FF031B45A357003CCF1F /* KDXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DF65D11795C37A00A0F953 /* KDXCollectionViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		657F4B7A1B45B30B00EAEFA8 /* KDXCollectionViewMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 657F4B791B45B30B00EAEFA8 /* KDXCollectionViewMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		657F4B801B45B30B00EAEFA8 /* KDXCollectionViewMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657F4B751B45B30B00EAEFA8 /* KDXCollectionViewMac.framework */; };
+		657F4B871B45B30B00EAEFA8 /* KDXCollectionViewMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657F4B861B45B30B00EAEFA8 /* KDXCollectionViewMacTests.swift */; };
+		657F4B8E1B45B31700EAEFA8 /* KDXGraphicsUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF65D31795C37A00A0F953 /* KDXGraphicsUtility.h */; };
+		657F4B8F1B45B31B00EAEFA8 /* KDXGraphicsUtility.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DF65D21795C37A00A0F953 /* KDXGraphicsUtility.c */; };
+		657F4B901B45B31E00EAEFA8 /* KDXCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF65CE1795C37A00A0F953 /* KDXCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		657F4B911B45B32200EAEFA8 /* KDXCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DF65CF1795C37A00A0F953 /* KDXCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		657F4B921B45B32600EAEFA8 /* KDXCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF65D01795C37A00A0F953 /* KDXCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		657F4B931B45B32C00EAEFA8 /* KDXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DF65D11795C37A00A0F953 /* KDXCollectionViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D4DF659A1795C35200A0F953 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DF65991795C35200A0F953 /* Cocoa.framework */; };
 		D4DF65A41795C35200A0F953 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4DF65A21795C35200A0F953 /* InfoPlist.strings */; };
 		D4DF65A61795C35200A0F953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DF65A51795C35200A0F953 /* main.m */; };
@@ -33,12 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		65A7FEF11B45A315003CCF1F /* PBXContainerItemProxy */ = {
+		657F4B811B45B30B00EAEFA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D4DF658E1795C35200A0F953 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 65A7FEE41B45A315003CCF1F;
-			remoteInfo = KDXCollectionView;
+			remoteGlobalIDString = 657F4B741B45B30B00EAEFA8;
+			remoteInfo = KDXCollectionViewMac;
 		};
 		D4DF65BB1795C35200A0F953 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -50,12 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		65A7FEE51B45A315003CCF1F /* KDXCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDXCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65A7FEE81B45A315003CCF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65A7FEE91B45A315003CCF1F /* KDXCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDXCollectionView.h; sourceTree = "<group>"; };
-		65A7FEEF1B45A315003CCF1F /* KDXCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDXCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65A7FEF51B45A315003CCF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65A7FEF61B45A315003CCF1F /* KDXCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDXCollectionViewTests.swift; sourceTree = "<group>"; };
+		657F4B751B45B30B00EAEFA8 /* KDXCollectionViewMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDXCollectionViewMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		657F4B781B45B30B00EAEFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657F4B791B45B30B00EAEFA8 /* KDXCollectionViewMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDXCollectionViewMac.h; sourceTree = "<group>"; };
+		657F4B7F1B45B30B00EAEFA8 /* KDXCollectionViewMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDXCollectionViewMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		657F4B851B45B30B00EAEFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657F4B861B45B30B00EAEFA8 /* KDXCollectionViewMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDXCollectionViewMacTests.swift; sourceTree = "<group>"; };
 		D4DF65961795C35200A0F953 /* CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DF65991795C35200A0F953 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D4DF659C1795C35200A0F953 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -84,18 +84,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65A7FEE11B45A315003CCF1F /* Frameworks */ = {
+		657F4B711B45B30B00EAEFA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65A7FEEC1B45A315003CCF1F /* Frameworks */ = {
+		657F4B7C1B45B30B00EAEFA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65A7FEF01B45A315003CCF1F /* KDXCollectionView.framework in Frameworks */,
+				657F4B801B45B30B00EAEFA8 /* KDXCollectionViewMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,36 +119,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65A7FEE61B45A315003CCF1F /* KDXCollectionView */ = {
+		657F4B761B45B30B00EAEFA8 /* KDXCollectionViewMac */ = {
 			isa = PBXGroup;
 			children = (
-				65A7FEE91B45A315003CCF1F /* KDXCollectionView.h */,
-				65A7FEE71B45A315003CCF1F /* Supporting Files */,
+				657F4B791B45B30B00EAEFA8 /* KDXCollectionViewMac.h */,
+				657F4B771B45B30B00EAEFA8 /* Supporting Files */,
 			);
-			path = KDXCollectionView;
+			path = KDXCollectionViewMac;
 			sourceTree = "<group>";
 		};
-		65A7FEE71B45A315003CCF1F /* Supporting Files */ = {
+		657F4B771B45B30B00EAEFA8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				65A7FEE81B45A315003CCF1F /* Info.plist */,
+				657F4B781B45B30B00EAEFA8 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		65A7FEF31B45A315003CCF1F /* KDXCollectionViewTests */ = {
+		657F4B831B45B30B00EAEFA8 /* KDXCollectionViewMacTests */ = {
 			isa = PBXGroup;
 			children = (
-				65A7FEF61B45A315003CCF1F /* KDXCollectionViewTests.swift */,
-				65A7FEF41B45A315003CCF1F /* Supporting Files */,
+				657F4B861B45B30B00EAEFA8 /* KDXCollectionViewMacTests.swift */,
+				657F4B841B45B30B00EAEFA8 /* Supporting Files */,
 			);
-			path = KDXCollectionViewTests;
+			path = KDXCollectionViewMacTests;
 			sourceTree = "<group>";
 		};
-		65A7FEF41B45A315003CCF1F /* Supporting Files */ = {
+		657F4B841B45B30B00EAEFA8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				65A7FEF51B45A315003CCF1F /* Info.plist */,
+				657F4B851B45B30B00EAEFA8 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,8 +158,8 @@
 			children = (
 				D4DF659F1795C35200A0F953 /* CollectionView */,
 				D4DF65BD1795C35200A0F953 /* CollectionViewTests */,
-				65A7FEE61B45A315003CCF1F /* KDXCollectionView */,
-				65A7FEF31B45A315003CCF1F /* KDXCollectionViewTests */,
+				657F4B761B45B30B00EAEFA8 /* KDXCollectionViewMac */,
+				657F4B831B45B30B00EAEFA8 /* KDXCollectionViewMacTests */,
 				D4DF65981795C35200A0F953 /* Frameworks */,
 				D4DF65971795C35200A0F953 /* Products */,
 			);
@@ -170,8 +170,8 @@
 			children = (
 				D4DF65961795C35200A0F953 /* CollectionView.app */,
 				D4DF65B71795C35200A0F953 /* CollectionViewTests.xctest */,
-				65A7FEE51B45A315003CCF1F /* KDXCollectionView.framework */,
-				65A7FEEF1B45A315003CCF1F /* KDXCollectionViewTests.xctest */,
+				657F4B751B45B30B00EAEFA8 /* KDXCollectionViewMac.framework */,
+				657F4B7F1B45B30B00EAEFA8 /* KDXCollectionViewMacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,54 +256,54 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		65A7FEE21B45A315003CCF1F /* Headers */ = {
+		657F4B721B45B30B00EAEFA8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65A7FEFE1B45A348003CCF1F /* KDXGraphicsUtility.h in Headers */,
-				65A7FF001B45A34E003CCF1F /* KDXCollectionView.h in Headers */,
-				65A7FEEA1B45A315003CCF1F /* KDXCollectionView.h in Headers */,
-				65A7FF021B45A354003CCF1F /* KDXCollectionViewCell.h in Headers */,
+				657F4B8E1B45B31700EAEFA8 /* KDXGraphicsUtility.h in Headers */,
+				657F4B901B45B31E00EAEFA8 /* KDXCollectionView.h in Headers */,
+				657F4B7A1B45B30B00EAEFA8 /* KDXCollectionViewMac.h in Headers */,
+				657F4B921B45B32600EAEFA8 /* KDXCollectionViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		65A7FEE41B45A315003CCF1F /* KDXCollectionView */ = {
+		657F4B741B45B30B00EAEFA8 /* KDXCollectionViewMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65A7FEFC1B45A315003CCF1F /* Build configuration list for PBXNativeTarget "KDXCollectionView" */;
+			buildConfigurationList = 657F4B8C1B45B30B00EAEFA8 /* Build configuration list for PBXNativeTarget "KDXCollectionViewMac" */;
 			buildPhases = (
-				65A7FEE01B45A315003CCF1F /* Sources */,
-				65A7FEE11B45A315003CCF1F /* Frameworks */,
-				65A7FEE21B45A315003CCF1F /* Headers */,
-				65A7FEE31B45A315003CCF1F /* Resources */,
+				657F4B701B45B30B00EAEFA8 /* Sources */,
+				657F4B711B45B30B00EAEFA8 /* Frameworks */,
+				657F4B721B45B30B00EAEFA8 /* Headers */,
+				657F4B731B45B30B00EAEFA8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KDXCollectionView;
-			productName = KDXCollectionView;
-			productReference = 65A7FEE51B45A315003CCF1F /* KDXCollectionView.framework */;
+			name = KDXCollectionViewMac;
+			productName = KDXCollectionViewMac;
+			productReference = 657F4B751B45B30B00EAEFA8 /* KDXCollectionViewMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		65A7FEEE1B45A315003CCF1F /* KDXCollectionViewTests */ = {
+		657F4B7E1B45B30B00EAEFA8 /* KDXCollectionViewMacTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65A7FEFD1B45A315003CCF1F /* Build configuration list for PBXNativeTarget "KDXCollectionViewTests" */;
+			buildConfigurationList = 657F4B8D1B45B30B00EAEFA8 /* Build configuration list for PBXNativeTarget "KDXCollectionViewMacTests" */;
 			buildPhases = (
-				65A7FEEB1B45A315003CCF1F /* Sources */,
-				65A7FEEC1B45A315003CCF1F /* Frameworks */,
-				65A7FEED1B45A315003CCF1F /* Resources */,
+				657F4B7B1B45B30B00EAEFA8 /* Sources */,
+				657F4B7C1B45B30B00EAEFA8 /* Frameworks */,
+				657F4B7D1B45B30B00EAEFA8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65A7FEF21B45A315003CCF1F /* PBXTargetDependency */,
+				657F4B821B45B30B00EAEFA8 /* PBXTargetDependency */,
 			);
-			name = KDXCollectionViewTests;
-			productName = KDXCollectionViewTests;
-			productReference = 65A7FEEF1B45A315003CCF1F /* KDXCollectionViewTests.xctest */;
+			name = KDXCollectionViewMacTests;
+			productName = KDXCollectionViewMacTests;
+			productReference = 657F4B7F1B45B30B00EAEFA8 /* KDXCollectionViewMacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D4DF65951795C35200A0F953 /* CollectionView */ = {
@@ -350,10 +350,10 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Chongyu Zhu";
 				TargetAttributes = {
-					65A7FEE41B45A315003CCF1F = {
+					657F4B741B45B30B00EAEFA8 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					65A7FEEE1B45A315003CCF1F = {
+					657F4B7E1B45B30B00EAEFA8 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 					D4DF65B61795C35200A0F953 = {
@@ -376,21 +376,21 @@
 			targets = (
 				D4DF65951795C35200A0F953 /* CollectionView */,
 				D4DF65B61795C35200A0F953 /* CollectionViewTests */,
-				65A7FEE41B45A315003CCF1F /* KDXCollectionView */,
-				65A7FEEE1B45A315003CCF1F /* KDXCollectionViewTests */,
+				657F4B741B45B30B00EAEFA8 /* KDXCollectionViewMac */,
+				657F4B7E1B45B30B00EAEFA8 /* KDXCollectionViewMacTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		65A7FEE31B45A315003CCF1F /* Resources */ = {
+		657F4B731B45B30B00EAEFA8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65A7FEED1B45A315003CCF1F /* Resources */ = {
+		657F4B7D1B45B30B00EAEFA8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -419,21 +419,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		65A7FEE01B45A315003CCF1F /* Sources */ = {
+		657F4B701B45B30B00EAEFA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65A7FF011B45A351003CCF1F /* KDXCollectionView.m in Sources */,
-				65A7FF031B45A357003CCF1F /* KDXCollectionViewCell.m in Sources */,
-				65A7FEFF1B45A34B003CCF1F /* KDXGraphicsUtility.c in Sources */,
+				657F4B911B45B32200EAEFA8 /* KDXCollectionView.m in Sources */,
+				657F4B931B45B32C00EAEFA8 /* KDXCollectionViewCell.m in Sources */,
+				657F4B8F1B45B31B00EAEFA8 /* KDXGraphicsUtility.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65A7FEEB1B45A315003CCF1F /* Sources */ = {
+		657F4B7B1B45B30B00EAEFA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65A7FEF71B45A315003CCF1F /* KDXCollectionViewTests.swift in Sources */,
+				657F4B871B45B30B00EAEFA8 /* KDXCollectionViewMacTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,10 +460,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		65A7FEF21B45A315003CCF1F /* PBXTargetDependency */ = {
+		657F4B821B45B30B00EAEFA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65A7FEE41B45A315003CCF1F /* KDXCollectionView */;
-			targetProxy = 65A7FEF11B45A315003CCF1F /* PBXContainerItemProxy */;
+			target = 657F4B741B45B30B00EAEFA8 /* KDXCollectionViewMac */;
+			targetProxy = 657F4B811B45B30B00EAEFA8 /* PBXContainerItemProxy */;
 		};
 		D4DF65BC1795C35200A0F953 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -508,7 +508,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		65A7FEF81B45A315003CCF1F /* Debug */ = {
+		657F4B881B45B30B00EAEFA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -527,7 +527,7 @@
 					"$(inherited)",
 				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = KDXCollectionView/Info.plist;
+				INFOPLIST_FILE = KDXCollectionViewMac/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -540,7 +540,7 @@
 			};
 			name = Debug;
 		};
-		65A7FEF91B45A315003CCF1F /* Release */ = {
+		657F4B891B45B30B00EAEFA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -555,7 +555,7 @@
 				FRAMEWORK_VERSION = A;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = KDXCollectionView/Info.plist;
+				INFOPLIST_FILE = KDXCollectionViewMac/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -567,7 +567,7 @@
 			};
 			name = Release;
 		};
-		65A7FEFA1B45A315003CCF1F /* Debug */ = {
+		657F4B8A1B45B30B00EAEFA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -584,7 +584,7 @@
 					"$(inherited)",
 				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = KDXCollectionViewTests/Info.plist;
+				INFOPLIST_FILE = KDXCollectionViewMacTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -592,7 +592,7 @@
 			};
 			name = Debug;
 		};
-		65A7FEFB1B45A315003CCF1F /* Release */ = {
+		657F4B8B1B45B30B00EAEFA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -605,7 +605,7 @@
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = KDXCollectionViewTests/Info.plist;
+				INFOPLIST_FILE = KDXCollectionViewMacTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -752,19 +752,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65A7FEFC1B45A315003CCF1F /* Build configuration list for PBXNativeTarget "KDXCollectionView" */ = {
+		657F4B8C1B45B30B00EAEFA8 /* Build configuration list for PBXNativeTarget "KDXCollectionViewMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65A7FEF81B45A315003CCF1F /* Debug */,
-				65A7FEF91B45A315003CCF1F /* Release */,
+				657F4B881B45B30B00EAEFA8 /* Debug */,
+				657F4B891B45B30B00EAEFA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		65A7FEFD1B45A315003CCF1F /* Build configuration list for PBXNativeTarget "KDXCollectionViewTests" */ = {
+		657F4B8D1B45B30B00EAEFA8 /* Build configuration list for PBXNativeTarget "KDXCollectionViewMacTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65A7FEFA1B45A315003CCF1F /* Debug */,
-				65A7FEFB1B45A315003CCF1F /* Release */,
+				657F4B8A1B45B30B00EAEFA8 /* Debug */,
+				657F4B8B1B45B30B00EAEFA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
