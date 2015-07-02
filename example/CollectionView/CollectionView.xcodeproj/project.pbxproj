@@ -12,9 +12,9 @@
 		65A7FEF71B45A315003CCF1F /* KDXCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A7FEF61B45A315003CCF1F /* KDXCollectionViewTests.swift */; };
 		65A7FEFE1B45A348003CCF1F /* KDXGraphicsUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF65D31795C37A00A0F953 /* KDXGraphicsUtility.h */; };
 		65A7FEFF1B45A34B003CCF1F /* KDXGraphicsUtility.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DF65D21795C37A00A0F953 /* KDXGraphicsUtility.c */; };
-		65A7FF001B45A34E003CCF1F /* KDXCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF65CE1795C37A00A0F953 /* KDXCollectionView.h */; };
+		65A7FF001B45A34E003CCF1F /* KDXCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF65CE1795C37A00A0F953 /* KDXCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65A7FF011B45A351003CCF1F /* KDXCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DF65CF1795C37A00A0F953 /* KDXCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		65A7FF021B45A354003CCF1F /* KDXCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF65D01795C37A00A0F953 /* KDXCollectionViewCell.h */; };
+		65A7FF021B45A354003CCF1F /* KDXCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF65D01795C37A00A0F953 /* KDXCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65A7FF031B45A357003CCF1F /* KDXCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DF65D11795C37A00A0F953 /* KDXCollectionViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D4DF659A1795C35200A0F953 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DF65991795C35200A0F953 /* Cocoa.framework */; };
 		D4DF65A41795C35200A0F953 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4DF65A21795C35200A0F953 /* InfoPlist.strings */; };
