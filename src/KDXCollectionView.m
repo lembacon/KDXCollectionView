@@ -136,6 +136,15 @@
     return self;
 }
 
+- (id)initWithCoder:(NSCoder *)coder {
+    self = [super initWithCoder:coder];
+    if (self) {
+        [self _initialize];
+    }
+    
+    return self;
+}
+
 - (void)dealloc
 {
     [self _finalize];
