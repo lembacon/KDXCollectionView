@@ -2087,14 +2087,14 @@
     return YES;
 }
 
-- (NSView *)hitTest:(NSPoint)aPoint
-{
-    if (NSMouseInRect(aPoint, [self visibleRect], [self isFlipped])) {
-        return self;
-    }
-    
-    return nil;
-}
+//- (NSView *)hitTest:(NSPoint)aPoint
+//{
+//    if (NSMouseInRect(aPoint, [self visibleRect], [self isFlipped])) {
+//        return self;
+//    }
+//    
+//    return nil;
+//}
 
 - (void)_clearTrackingArea
 {
