@@ -2080,11 +2080,13 @@
 
 - (NSView *)hitTest:(NSPoint)aPoint
 {
-    if (NSMouseInRect(aPoint, [self visibleRect], [self isFlipped])) {
+    NSView *hitView = [super hitTest:aPoint];
+    
+    if (!hitView && NSMouseInRect(aPoint, [self visibleRect], [self isFlipped])) {
         return self;
     }
     
-    return nil;
+    return hitView;
 }
 
 - (void)_clearTrackingArea
