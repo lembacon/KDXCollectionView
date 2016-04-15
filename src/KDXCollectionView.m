@@ -659,6 +659,7 @@
     _flags.shouldAnimateCellFrameChanging = YES;
     
     [self _updateFramesOfCells];
+    [self _addVisibleCells];
     
     _flags.shouldAnimateCellFrameChanging = oldShouldAnimateCellFrameChanging;
 }
@@ -754,6 +755,7 @@
     [self _updateFrame];
     [self _updateFramesOfCells];
     [self _removeInvisibleCells];
+    [self _addVisibleCells];
     
     _flags.shouldAnimateCellFrameChanging = oldShouldAnimateCellFrameChanging;
 }
