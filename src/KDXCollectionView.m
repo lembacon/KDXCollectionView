@@ -114,6 +114,10 @@
 
 @implementation KDXCollectionView
 
+// TSF 7/19/2016 Work-around for a nasty bug where visibleCells array is not trustable during a reloadData.
+// Ugly, but trying to minimize pod code changes.
+static BOOL doingPreReloadData = false;
+
 #pragma mark - Synthesizing Properties
 
 @synthesize dataSource = _dataSource;
@@ -448,11 +452,13 @@
 
 - (void)_preReloadData
 {
+    doingPreReloadData = true;
     [_selectedIndexes removeAllIndexes];
     _hoveringIndex = NSNotFound;
     
     _numberOfItems = [self _dataSourceNumberOfItems];
     [self _updateFrame];
+    doingPreReloadData = false;
 }
 
 - (void)_postReloadData
@@ -659,6 +665,7 @@
     _flags.shouldAnimateCellFrameChanging = YES;
     
     [self _updateFramesOfCells];
+    [self _addVisibleCells];
     
     _flags.shouldAnimateCellFrameChanging = oldShouldAnimateCellFrameChanging;
 }
@@ -754,6 +761,7 @@
     [self _updateFrame];
     [self _updateFramesOfCells];
     [self _removeInvisibleCells];
+    [self _addVisibleCells];
     
     _flags.shouldAnimateCellFrameChanging = oldShouldAnimateCellFrameChanging;
 }
@@ -964,7 +972,9 @@
 - (void)setFrame:(NSRect)frameRect
 {
     [super setFrame:frameRect];
-    [self _layout];
+    if (!doingPreReloadData) {
+        [self _layout];
+    }
     
     if ([self inLiveResize]) {
         [self setNeedsDisplay:YES];
@@ -2080,11 +2090,13 @@
 
 - (NSView *)hitTest:(NSPoint)aPoint
 {
-    if (NSMouseInRect(aPoint, [self visibleRect], [self isFlipped])) {
+    NSView *hitView = [super hitTest:aPoint];
+    
+    if (!hitView && NSMouseInRect(aPoint, [self visibleRect], [self isFlipped])) {
         return self;
     }
     
-    return nil;
+    return hitView;
 }
 
 - (void)_clearTrackingArea
